@@ -256,7 +256,7 @@ Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 
 ## 👨‍💻 Autor
 
-**Creado con ❤️ para los gamers retro**
+**Creado con ❤️ para los gamers retro por @jtejadavilca**
 
 ---
 
