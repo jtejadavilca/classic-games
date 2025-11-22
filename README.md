@@ -5,7 +5,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Portal de juegos arcade clásicos con estética retro auténtica. Una colección de 5 juegos icónicos recreados con tecnologías web modernas y efectos visuales nostálgicos de los años 70-80.
+Portal de juegos arcade clásicos con estética retro auténtica. Una colección de 7 juegos icónicos recreados con tecnologías web modernas y efectos visuales nostálgicos de los años 70-90.
 
 ## 🎮 Juegos Disponibles
 
@@ -77,6 +77,38 @@ El adictivo juego de la serpiente. Come, crece y evita chocarte.
 
 **Controles:** Flechas direccionales
 
+---
+
+### 6. 💣 MINESWEEPER (1990)
+El clásico puzzle de lógica. Encuentra todas las minas sin detonarlas usando deducciones.
+
+**Características:**
+- Grid de 9×9 con 10 minas
+- Números que indican minas adyacentes
+- Click izquierdo para revelar
+- Click derecho para colocar banderas
+- Revelado recursivo de celdas vacías
+- Timer y contador de minas
+
+**Controles:** Click izquierdo para revelar, Click derecho para bandera
+
+---
+
+### 7. 🟡 PAC-MAN (1980)
+El icónico juego de laberintos. Come todos los puntos mientras evitas los fantasmas.
+
+**Características:**
+- Laberinto clásico auténtico
+- 4 fantasmas con IA de persecución
+- Puntos regulares y power pellets
+- Modo power para comer fantasmas
+- Sistema de vidas y niveles
+- Física y movimiento suave
+
+**Controles:** Flechas direccionales
+
+---
+
 ## 🛠️ Tecnologías Utilizadas
 
 - **HTML5** - Estructura y Canvas API para rendering de juegos
@@ -132,6 +164,18 @@ classic-games/
     │   └── js/
     │       └── game.js
     └── snake/
+        ├── index.html
+        ├── css/
+        │   └── styles.css
+        └── js/
+            └── game.js
+    ├── minesweeper/
+    │   ├── index.html
+    │   ├── css/
+    │   │   └── styles.css
+    │   └── js/
+    │       └── game.js
+    └── pacman/
         ├── index.html
         ├── css/
         │   └── styles.css
