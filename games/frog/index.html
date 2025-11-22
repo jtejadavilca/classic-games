@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frog - Cruza la calle y el río para llegar a salvo">
+    <title>🐸 FROG - Arcade Clásico</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="crt">
+        <div class="scanlines"></div>
+        <div class="container">
+            <header class="header">
+                <a href="../../index.html" class="back-button">◄ VOLVER AL MENÚ</a>
+                <h1 class="title">FROG</h1>
+            </header>
+
+            <div class="game-container">
+                <aside class="side-panel left-panel">
+                    <div class="panel-section">
+                        <h2 class="panel-title">VIDAS</h2>
+                        <p class="score-value" id="lives">3</p>
+                        <div class="lives-display" id="livesDisplay"></div>
+                    </div>
+                    
+                    <div class="panel-section controls-info">
+                        <h2 class="panel-title">CONTROLES</h2>
+                        <div class="control-item">
+                            <span class="key">▲</span>
+                            <span class="desc">ARRIBA</span>
+                        </div>
+                        <div class="control-item">
+                            <span class="key">▼</span>
+                            <span class="desc">ABAJO</span>
+                        </div>
+                        <div class="control-item">
+                            <span class="key">◄</span>
+                            <span class="desc">IZQUIERDA</span>
+                        </div>
+                        <div class="control-item">
+                            <span class="key">►</span>
+                            <span class="desc">DERECHA</span>
+                        </div>
+                    </div>
+                </aside>
+
+                <main class="game-area">
+                    <canvas id="gameCanvas" width="520" height="600"></canvas>
+                    <div id="gameOver" class="game-over hidden">
+                        <div class="game-over-content">
+                            <h2 id="gameOverTitle">GAME OVER</h2>
+                            <p class="final-score">PUNTUACIÓN: <span id="finalScore">0</span></p>
+                            <button id="restartButton" class="game-button">REINICIAR</button>
+                        </div>
+                    </div>
+                </main>
+
+                <aside class="side-panel right-panel">
+                    <div class="panel-section">
+                        <h2 class="panel-title">PUNTUACIÓN</h2>
+                        <p class="score-value" id="score">0</p>
+                    </div>
+                    
+                    <div class="panel-section">
+                        <h2 class="panel-title">NIVEL</h2>
+                        <p class="score-value" id="level">1</p>
+                    </div>
+
+                    <div class="panel-section">
+                        <h2 class="panel-title">TIEMPO</h2>
+                        <p class="score-value" id="time">60</p>
+                    </div>
+
+                    <div class="panel-section info">
+                        <h2 class="panel-title">OBJETIVO</h2>
+                        <p class="info-text">Lleva a 5 ranas a casa</p>
+                    </div>
+                </aside>
+            </div>
+
+            <footer class="footer">
+                <p>¡CRUZA LA CALLE Y EL RÍO SIN SER ATROPELLADO!</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/game.js"></script>
+</body>
+</html>
